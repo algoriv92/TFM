@@ -1,0 +1,23 @@
+PROGRESIÓN DEL TFM
+
+He obtenido varios CSV y Excels de diversos datos:
+
+- BioNTech
+- Hipotecas total fincas en España
+- IPC España
+- Matriculaciones vehículos
+- Paro en España
+- Turismo en España
+- Vuelos pasajeros y mercancías España
+- Zoom Meetings
+- Pernoctaciones hoteleras
+- IBEX
+- Petróleo
+
+He tratado los datos y he hecho análisis gráficos dentro de los notebooks de:
+
+- Hipotecas
+- Matriculaciones
+- Paro
+- Turismo
+- Vuelos
