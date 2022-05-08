@@ -1,23 +1,19 @@
-PROGRESIÓN DEL TFM
+PROGRESIÓN DEL TFM (8/05/22)
 
-He obtenido varios CSV y Excels de diversos datos:
+He tratado los datos de las siguientes time series y los he representado gráficamente:
 
-- BioNTech
+- BioNTech (BNTX)
 - Hipotecas total fincas en España
 - IPC España
 - Matriculaciones vehículos
 - Paro en España
 - Turismo en España
 - Vuelos pasajeros y mercancías España
-- Zoom Meetings
+- Zoom Meetings (ZM)
 - Pernoctaciones hoteleras
-- IBEX
+- ^IBEX
 - Petróleo
+- PIB trimestral
 
-He tratado los datos y he hecho análisis gráficos dentro de los notebooks de:
+He hecho los modelos ETS y ARIMA con la serie temporal del PARO en España
 
-- Hipotecas
-- Matriculaciones
-- Paro
-- Turismo
-- Vuelos
