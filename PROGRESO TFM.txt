@@ -1,19 +1,23 @@
-PROGRESIÓN DEL TFM (8/05/22)
+PROGRESIÓN DEL TFM (11/05/22)
 
 He tratado los datos de las siguientes time series y los he representado gráficamente:
 
-- BioNTech (BNTX)
-- Hipotecas total fincas en España
-- IPC España
+- BioNTech (BNTX) --> corregir fallo representación comportamiento mensual
+- Hipotecas total fincas en España --> corregir fallo representación comportamiento mensual y también que el desglose sale con el periodo al revés
+- IPC España --> mismos fallos que en hipotecas
 - Matriculaciones vehículos
 - Paro en España
 - Turismo en España
 - Vuelos pasajeros y mercancías España
 - Zoom Meetings (ZM)
-- Pernoctaciones hoteleras
+- Pernoctaciones hoteleras --> corregir fallo representación comportamiento mensual
 - ^IBEX
 - Petróleo
 - PIB trimestral
 
 He hecho los modelos ETS y ARIMA con la serie temporal del PARO en España
+
+REVISAR: PIB, VUELOS y WTI
+
+Mirar esto: deque_initial_size.hpp': No such file or directory
 
