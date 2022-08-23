@@ -1,23 +1,47 @@
-PROGRESIÓN DEL TFM (13/05/22)
+PROGRESIÓN DEL TFM (23/08/22)
 
-He tratado los datos de las siguientes time series y los he representado gráficamente:
+NOTEBOOKS:
 
-- BioNTech (BNTX) --> corregir fallo representación comportamiento mensual
-- Hipotecas total fincas en España --> corregir fallo representación comportamiento mensual y también que el desglose sale con el periodo al revés
-- IPC España --> mismos fallos que en hipotecas
-- Matriculaciones vehículos
-- Paro en España
-- Turismo en España
-- Vuelos pasajeros y mercancías España
-- Zoom Meetings (ZM)
-- Pernoctaciones hoteleras --> corregir fallo representación comportamiento mensual
-- ^IBEX
-- Petróleo
-- PIB trimestral --> corregir error desglose
+Estructura:
 
-He hecho los modelos ETS y ARIMA con la serie temporal del PARO en España
+1) Lectura y preprocesado de datos (detección NAs, outliers, cambios de formato, etc.)
+2) EDA
+3) Train-test y aplicación de modelos (de momento ETS, ARIMA y PROPHET)
+4) Se observa cuál da menos error y se elige el mejor modelo
+5) Predicción con el mejor modelo hasta finales de año (dic-2022)
 
-REVISAR:
+TODAS LAS SERIES YA ESTÁN HASTA EL EDA (INCLUIDO)
 
-Mirar esto: deque_initial_size.hpp': No such file or directory
+- Apple ------------------------------------------------------> COMPLETO, mejor modelo Prophet. Hay que revisar predicción porque no convence.
+- BioNTech (BNTX) --------------------------------------------> hasta ETS, REVISAR FALLOS y VALORAR SI MERECE LA PENA ANALIZAR LA SERIE
+- Hipotecas total fincas en España ---------------------------> hasta ARIMA, errores entre 13 y 15%, valorar intervención 
+- ^IBEX ------------------------------------------------------> hasta EDA
+- IPC España --> mismos fallos que en hipotecas --------------> hasta EDA, corregir fallos del mismo.
+- Matriculaciones vehículos ----------------------------------> COMPLETO pero MAPE muy altos, hay que intervenir
+- Paro en España ---------------------------------------------> COMPLETO, MAPE un poco elevados (entre 12 y 16%). Se ha intervenido y ha mejorado --> df_paro_new
+- Paro en España (intervenido) -------------------------------> COMPLETO, buen pronóstico con ETS (MAPE = 1.72%).
+- Turismo en España ------------------------------------------> Hasta Prophet, los 3 modelos dan poco error, se podría pronosticar con las 3...
+- Pernoctaciones hoteleras -----------------------------------> hasta EDA, corregir fallo representación comportamiento mensual
+- Vuelos pasajeros en España ---------------------------------> hasta EDA
+- Vuelos mercancías en España --------------------------------> hasta EDA
+- Zoom Meetings (ZM) -----------------------------------------> hasta EDA
+- Petróleo ---------------------------------------------------> hasta EDA
+- PIB trimestral ---------------------------------------------> corregir error desglose
+
+Añadidos: 
+	· aplicar en todos test Dickey-Fuller para mejor estudio estacionariedad
+	· guardado de gráficas --> .savefig('nombre.png')
+
+
+INFORME FINAL:
+
+1) Abstract, keywords, acrónimos y repositorio GitHub --------> HECHO
+2) Introducción (contexto, estado, objetivos, organización ---> HECHO, FALTA DESARROLLAR MÁS LOS OBJETIVOS. ¿Está bien el apartado de DELIMITACIONES?
+3) Etapa I: Selección, lectura y preprocesado de datos -------> FALTA
+4) Etapa II: EDA ---------------------------------------------> FALTA
+5) Etapa III: Definición y aplicación modelos ----------------> FALTA
+6) Etapa IV: Resultados --------------------------------------> FALTA
+7) Conclusiones finales --------------------------------------> FALTA
+
+RESUMEN EJECUTIVO: COMPLETO, falta poner los resultados y la conclusión que será lo último que se vaya a poner.
 
