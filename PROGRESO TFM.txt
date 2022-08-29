@@ -13,23 +13,20 @@ Estructura:
 TODAS LAS SERIES YA ESTÁN HASTA EL EDA (INCLUIDO)
 
 - Apple ------------------------------------------------------> COMPLETO, mejor modelo Prophet. Hay que revisar predicción porque no convence.
-- BioNTech (BNTX) --------------------------------------------> hasta ETS, REVISAR FALLOS y VALORAR SI MERECE LA PENA ANALIZAR LA SERIE
-- Hipotecas total fincas en España ---------------------------> hasta ARIMA, errores entre 13 y 15%, valorar intervención 
-- ^IBEX ------------------------------------------------------> hasta EDA
-- IPC España --> mismos fallos que en hipotecas --------------> hasta EDA, corregir fallos del mismo.
-- Matriculaciones vehículos ----------------------------------> COMPLETO pero MAPE muy altos, hay que intervenir
-- Paro en España ---------------------------------------------> COMPLETO, MAPE un poco elevados (entre 12 y 16%). Se ha intervenido y ha mejorado --> df_paro_new
-- Paro en España (intervenido) -------------------------------> COMPLETO, buen pronóstico con ETS (MAPE = 1.72%).
-- Turismo en España ------------------------------------------> Hasta Prophet, los 3 modelos dan poco error, se podría pronosticar con las 3...
-- Pernoctaciones hoteleras -----------------------------------> hasta EDA, corregir fallo representación comportamiento mensual
-- Vuelos pasajeros en España ---------------------------------> hasta EDA
-- Vuelos mercancías en España --------------------------------> hasta EDA
+- Hipotecas total fincas en España ---------------------------> COMPLETO
+- ^IBEX ------------------------------------------------------> COMPLETO, MAPEs un tanto elevados (>20%), valorar qué hacer con esta TS. Hacer el savefig
+- Matriculaciones vehículos ----------------------------------> COMPLETO. Hay que hacer savefig.
+- Paro en España ---------------------------------------------> COMPLETO
+- Paro en España (intervenido) -------------------------------> COMPLETO
+- Turismo en España ------------------------------------------> Hasta Prophet
+- Pernoctaciones hoteleras -----------------------------------> hasta Prophet, va bien Prophet y hay que hacer la predicción
+- Vuelos pasajeros en España ---------------------------------> COMPLETO
+- Vuelos mercancías en España --------------------------------> COMPLETO
 - Zoom Meetings (ZM) -----------------------------------------> hasta EDA
 - Petróleo ---------------------------------------------------> hasta EDA
-- PIB trimestral ---------------------------------------------> corregir error desglose
+- PIB trimestral ---------------------------------------------> COMPLETO
 
 Añadidos: 
-	· aplicar en todos test Dickey-Fuller para mejor estudio estacionariedad
 	· guardado de gráficas --> .savefig('nombre.png')
 
 
