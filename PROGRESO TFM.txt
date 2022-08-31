@@ -12,21 +12,19 @@ Estructura:
 
 TODAS LAS SERIES YA ESTÁN HASTA EL EDA (INCLUIDO)
 
-- Apple ------------------------------------------------------> COMPLETO, mejor modelo Prophet. Hay que revisar predicción porque no convence.
-- Hipotecas total fincas en España ---------------------------> COMPLETO
-- ^IBEX ------------------------------------------------------> COMPLETO, MAPEs un tanto elevados (>20%), valorar qué hacer con esta TS. Hacer el savefig
+- Hipotecas España -------------------------------------------> COMPLETO. Hay que hacer savefig.
+- Hipotecas España (intervenido) -----------------------------> COMPLETO. Hay que hacer savefig.
 - Matriculaciones vehículos ----------------------------------> COMPLETO. Hay que hacer savefig.
-- Paro en España ---------------------------------------------> COMPLETO
-- Paro en España (intervenido) -------------------------------> COMPLETO
-- Turismo en España ------------------------------------------> Hasta Prophet
-- Pernoctaciones hoteleras -----------------------------------> hasta Prophet, va bien Prophet y hay que hacer la predicción
-- Vuelos pasajeros en España ---------------------------------> COMPLETO
-- Vuelos mercancías en España --------------------------------> COMPLETO
-- Zoom Meetings (ZM) -----------------------------------------> hasta EDA, pocos datos históricos, complicado para predecir.
-- Petróleo ---------------------------------------------------> hasta EDA
-- PIB trimestral ---------------------------------------------> COMPLETO
+- Matriculaciones vehículos (intervenido)---------------------> COMPLETO. Hay que hacer savefig.
+- Paro en España ---------------------------------------------> COMPLETO. Hay que hacer savefig.
+- Paro en España (intervenido) -------------------------------> COMPLETO. Hay que hacer savefig.
+- Turismo en España ------------------------------------------> COMPLETO. Hay que hacer savefig.
+- Turismo en España (intervenido)-----------------------------> COMPLETO. Hay que hacer savefig.
+- Petróleo ---------------------------------------------------> COMPLETO, pero planas las predicciones, revisar
+- Petróleo (intervenido) -------------------------------------> No sale bien, valorar qué hacer.
 
 Añadidos: 
+	· NO OLVIDAR PONER EN LOS PRIMEROS DF EL ISNULL PARA COMPROBAR QUE NO HAYAN DATOS FALTANTES (PARA DAR RELLENO AL TRABAJO)
 	· guardado de gráficas --> .savefig('nombre.png')
 
 
