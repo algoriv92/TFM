@@ -1,4 +1,4 @@
-PROGRESIÓN DEL TFM (23/08/22)
+PROGRESIÓN DEL TFM (01/09/22)
 
 NOTEBOOKS:
 
@@ -16,27 +16,28 @@ TODAS LAS SERIES YA ESTÁN HASTA EL EDA (INCLUIDO)
 - Hipotecas España (intervenido) -----------------------------> COMPLETO. Hay que hacer savefig.
 - Matriculaciones vehículos ----------------------------------> COMPLETO. Hay que hacer savefig.
 - Matriculaciones vehículos (intervenido)---------------------> COMPLETO. Hay que hacer savefig.
-- Paro en España ---------------------------------------------> COMPLETO. Hay que hacer savefig.
-- Paro en España (intervenido) -------------------------------> COMPLETO. Hay que hacer savefig.
+- Paro en España ---------------------------------------------> COMPLETO.
+- Paro en España (intervenido) -------------------------------> COMPLETO.
 - Turismo en España ------------------------------------------> COMPLETO. Hay que hacer savefig.
 - Turismo en España (intervenido)-----------------------------> COMPLETO. Hay que hacer savefig.
-- Petróleo ---------------------------------------------------> COMPLETO, pero planas las predicciones, revisar
-- Petróleo (intervenido) -------------------------------------> No sale bien, valorar qué hacer.
 
 Añadidos: 
 	· NO OLVIDAR PONER EN LOS PRIMEROS DF EL ISNULL PARA COMPROBAR QUE NO HAYAN DATOS FALTANTES (PARA DAR RELLENO AL TRABAJO)
 	· guardado de gráficas --> .savefig('nombre.png')
+	· datatocsv
 
 
 INFORME FINAL:
 
-1) Abstract, keywords, acrónimos y repositorio GitHub --------> HECHO
+1) Abstract, keywords, acrónimos y repositorio GitHub --------> HECHO, REPASARLO y ACTUALIZAR ACRÓNIMOS Y ABREVIATURAS y GITHUB
 2) Introducción (contexto, estado, objetivos, organización ---> HECHO, FALTA DESARROLLAR MÁS LOS OBJETIVOS. ¿Está bien el apartado de DELIMITACIONES?
-3) Etapa I: Selección, lectura y preprocesado de datos -------> FALTA
-4) Etapa II: EDA ---------------------------------------------> FALTA
-5) Etapa III: Definición y aplicación modelos ----------------> FALTA
-6) Etapa IV: Resultados --------------------------------------> FALTA
-7) Conclusiones finales --------------------------------------> FALTA
+3) Marco teórico ---------------------------------------------> FALTA EXPLICAR LOS MODELOS SOLAMENTE
+4) MARCO PRÁCTICO:
+4.1) PARO ----------------------------------------------------> HECHO
+4.2) HIPOTECAS -----------------------------------------------> FALTA
+4.3) MATRICULACIONES -----------------------------------------> FALTA
+4.4) TURISMO -------------------------------------------------> FALTA
+5) Conclusiones finales --------------------------------------> FALTA
 
-RESUMEN EJECUTIVO: COMPLETO, falta poner los resultados y la conclusión que será lo último que se vaya a poner.
+RESUMEN EJECUTIVO: COMPLETO, falta poner los resultados y la conclusión que será lo último que se voy a poner.
 
