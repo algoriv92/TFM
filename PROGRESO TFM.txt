@@ -22,21 +22,18 @@ TODAS LAS SERIES YA ESTÁN HASTA EL EDA (INCLUIDO)
 - Turismo en España (intervenido)-----------------------------> COMPLETO. Hay que hacer savefig.
 
 Añadidos: 
-	· NO OLVIDAR PONER EN LOS PRIMEROS DF EL ISNULL PARA COMPROBAR QUE NO HAYAN DATOS FALTANTES (PARA DAR RELLENO AL TRABAJO)
 	· guardado de gráficas --> .savefig('nombre.png')
-	· datatocsv
-
 
 INFORME FINAL:
 
 1) Abstract, keywords, acrónimos y repositorio GitHub --------> HECHO, REPASARLO y ACTUALIZAR ACRÓNIMOS Y ABREVIATURAS y GITHUB
-2) Introducción (contexto, estado, objetivos, organización ---> HECHO, FALTA DESARROLLAR MÁS LOS OBJETIVOS. ¿Está bien el apartado de DELIMITACIONES?
-3) Marco teórico ---------------------------------------------> FALTA EXPLICAR LOS MODELOS SOLAMENTE
+2) Introducción (contexto, estado, objetivos, organización ---> HECHO
+3) Marco teórico ---------------------------------------------> HECHO
 4) MARCO PRÁCTICO:
 4.1) PARO ----------------------------------------------------> HECHO
-4.2) HIPOTECAS -----------------------------------------------> FALTA
-4.3) MATRICULACIONES -----------------------------------------> FALTA
-4.4) TURISMO -------------------------------------------------> FALTA
+4.2) HIPOTECAS -----------------------------------------------> HECHO
+4.3) MATRICULACIONES -----------------------------------------> HECHO
+4.4) TURISMO -------------------------------------------------> HECHO
 5) Conclusiones finales --------------------------------------> FALTA
 
 RESUMEN EJECUTIVO: COMPLETO, falta poner los resultados y la conclusión que será lo último que se voy a poner.
