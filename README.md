@@ -5,4 +5,8 @@
 
 ## Máster Universitario en Ciencia de Datos (2021-2022)
 
+<<<<<<< HEAD
 El presente Trabajo Fin de Máster (TFM) tiene por objetivo final el análisis e intervención de distintas series temporales en la época COVID-19 y su previsión en el futuro mediante distintos modelos predictivos estadísticos.
+=======
+El presente Trabajo Fin de Máster (TFM) tiene por objetivo final el análisis e intervención de distintas series temporales en la época COVID-19 y su previsión en el futuro mediante distintos modelos predictivos estadísticos.
+>>>>>>> 72860c55483e83c826a39d6364d33c3f60d9e038
